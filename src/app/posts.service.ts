@@ -8,7 +8,7 @@ import { Post } from './post';
 })
 export class PostsService {
 
-  private postsUrl = "https://postinfoserver.herokuapp.com/posts";
+  private postsUrl = "http://46.41.141.60:8081/posts";
 
   constructor(private http: HttpClient) { }
 
